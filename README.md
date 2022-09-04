@@ -42,7 +42,97 @@ $$
 
 ### AppController
 
+#### Custom Resource Object
+
+#### Custom Resource Definition
+
+#### Configurator Installation
+
+#### Configurator Uprade / Rollback
+
+#### Transition Entry Operations
+
+#### Transition Outputs Handling
+
+
+
 ### Configurator
+
+#### Package Layout
+
+#### Implementation
+
+
+
+### Auxiliary Npm Package (For Development)
+
+>Kernel team SHALL provide a npm package for configurator development. 
+
+#### API Objects Model Structures 
+
+The following objects model types / identifiers are required by default:
+
+- Kubernetes API objects:
+
+  - KubernetesObject
+  - KubernetesListObject
+
+  - Pod
+  - Deployment
+  - DaemonSet
+  - StatefulSet
+  - ReplicaSet
+  - AdvancedStatefulSet
+  - AdvancedDaemonSet
+  - Job
+  - CronJob
+  - Ingress
+  - NetworkPolicy
+  - ConfigMap
+  - Secret
+  - PersistentVolume
+  - PersistentVolumeClaim
+  - Namespace
+  - Node
+  - Role
+  - RoleBinding
+  - Service
+  - StorageClass
+  - Endpont
+  - Event
+  - ResourceClaim
+  - ResourceRole
+  - {xxx}Spec
+  - {xxx}Status
+  - {xxx}List
+  - *Inner structures (container, ownerReference, podTemplate etc...)*
+
+- Kubernetes Custom Object Identifiers (group, version, plural)
+
+  - AdvancedStatefulSet
+  - AdvancedDaemonSet
+  - ResourceClaim
+  - ResourceRole
+
+#### Framework API Model Structures
+
+The following types are required by default:
+
+- Transition function input
+- Transition function output
+- Mutation templates (to ApiServer, Configstore etc...)
+
+
+
+### Test Plan
+
+#### Unit Test
+
+
+
+#### Intergation Test
+
+
 
 
 
