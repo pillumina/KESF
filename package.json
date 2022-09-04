@@ -23,6 +23,14 @@
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "@kubernetes/client-node": "^0.16.3"
+    "@kubernetes/client-node": "^0.16.3",
+    "@types/lodash": "latest",
+    "@types/node": "^18.6.3",
+    "@types/ramda": "^0.28.15",
+    "@types/underscore": "^1.11.4",
+    "lodash": "latest",
+    "node": "^18.7.0",
+    "ramda": "^0.28.0",
+    "underscore": "^1.13.4"
   }
 }
