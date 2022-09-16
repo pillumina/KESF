@@ -116,7 +116,7 @@ class IO {
 
 
 const ioWindow = new IO(() => {
-    return window;
+    return window;  
 });
 
 ioWindow.map((win: Window) => {
@@ -124,6 +124,8 @@ ioWindow.map((win: Window) => {
 })
 
 ioWindow.map(prop('location')).map(prop('href')).map(split('/'));
+
+
 
 
 
