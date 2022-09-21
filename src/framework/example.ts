@@ -7,7 +7,7 @@ export const reconciler: Reconciler<Resources> = ix => {
     ix.register({
         kind: 'RDSCluster',
         select: (ix, input) => {
-            const server = ix.of('RDSCluster', `${input.name}`)?.name;
+            const server = ix.of('RDSServer', `${input.name}`)?.name;
             return {
                 name: server,
                 status: input.status || {a: '', b: ''},
