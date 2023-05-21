@@ -31,6 +31,7 @@
     "lodash": "latest",
     "node": "^18.7.0",
     "ramda": "^0.28.0",
-    "underscore": "^1.13.4"
+    "underscore": "^1.13.4",
+    "fp-ts": "^2.13.1"
   }
 }
