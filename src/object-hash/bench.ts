@@ -3,7 +3,8 @@ import { hasher } from "./hasher";
 
 const obj1 = {
     a: ["1", "2", "3"],
-    b: "c"
+    b: "c",
+    c: []
 }
 
 const obj2 = {
